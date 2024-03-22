@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  }
+  .container {
+  width:100%;
+  height:100vh;
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://img.freepik.com/free-photo/top-view-baked-chicken-veggies-plate-with-wedges-copy-space_23-2148682743.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-left:8%;
+    padding-right:8%;
+    box-sizing: border-box;
+  }
+  .navbar{
+  height:12%;
+  display:flex;
+  align-items:center;
+  }
+  nav{flex:1;
+  text-align: right; 
+    text-shadow: 0 0 5px #999;
+  }
+  .logo{
+  width: 75px;
+  cursor: pointer;
+  }
+  .menu-icon{
+  width: 30px;
+  cursor: pointer;
+    margin-left:40px;
+  }
+  nav ul li{
+  list-style: none;
+  display: inline-block; margin-left:60px;
+  }
+  nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px
+  }
+  .row{
+  display: flex;
+  height: 70%;
+  align-items: center;
+  text-decoration: none;
+  }
+  .col{
+    display: flex;
+    flex-basis: 50%;
+    height: 100%;
+    padding-left: 150px;
+  }
+  h1{color: #fff;
+    font-size: 100px;}
+  p{color: #fff;
+    font-size: 11px; line-height: 15px;text-shadow: 0 0 5px #999;}
+  h5{color: #fff;color: #fff;
+text-shadow: 0 0 5px #999;}
+  button{
+  width: 180px;
+  color: #000;
+  font-size: 12px;
+  padding: 12px 0;
+  background: #fff;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+    margin-top:30px;}
+  .card{
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+    transition: transform 0.5s}
+  .card1{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://media.istockphoto.com/id/1321195603/photo/people-having-balanced-diet-from-lunch-boxes.jpg?s=612x612&w=0&k=20&c=yieHclin0zByT8mXbK1x7dlf_4bG6yqeBRszUjyYBbc=") ;
+  }
+  .card2{
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://img.freepik.com/free-photo/delicious-italian-pizza-wooden-table_23-2148643436.jpg") ;
+  }
+  .card3{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://storage.googleapis.com/pai-images/8780c48126284ec3aebb2bdd4da2757c.jpeg") ;
+  }
+  .card4{
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://www.businessinsider.in/photo/67552032/indians-love-food-so-much-that-most-of-them-just-wont-go-on-a-diet-survey.jpg?imgsize=166212") ;
+  }
+  .card:hover{
+    transform: translateY(-10px);}
+  h1{
+    font-size: 50px;
+    width:235px;
+    cursor: pointer;
+  }
+  
