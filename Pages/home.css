@@ -4,25 +4,44 @@
   font-family: 'Roboto', sans-serif;
   }
   .container {
-  width:100%;
-  height:100vh;
-  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://img.freepik.com/free-photo/top-view-baked-chicken-veggies-plate-with-wedges-copy-space_23-2148682743.jpg");
-    background-position: center;
-    background-size: cover;
-    padding-left:8%;
-    padding-right:8%;
-    box-sizing: border-box;
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://img.freepik.com/free-photo/top-view-baked-chicken-veggies-plate-with-wedges-copy-space_23-2148682743.jpg");
+      background-position: center;
+      background-size: cover;
+      padding-left:8%;
+      padding-right:8%;
+      box-sizing: border-box;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  @media only screen and (max-device-width: 1366px) {
+    .container {
+      background-attachment: scroll;
+    }
   }
   .navbar{
   height:12%;
+  width:100%;
   display:flex;
   align-items:center;
+  margin-left: 0%;
+  transition: 1s;
+  }
+  .navbar:hover {
+    background-color: transparent;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+    color: white;
   }
   nav{flex:1;
   text-align: right; 
     text-shadow: 0 0 5px #999;
   }
   .logo{
+    margin-left: 40px;
   width: 75px;
   cursor: pointer;
   }
@@ -42,7 +61,7 @@
   }
   .row{
     width:1500px;
-    display: flex;
+    display: inline-flex;
   height: 70%;
   align-items: center;
   text-decoration: none;
@@ -84,7 +103,7 @@ text-shadow: 0 0 5px #999;}
   background-size: cover;
     transition: transform 0.5s}
   .card1{
-  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://media.istockphoto.com/id/1321195603/photo/people-having-balanced-diet-from-lunch-boxes.jpg?s=612x612&w=0&k=20&c=yieHclin0zByT8mXbK1x7dlf_4bG6yqeBRszUjyYBbc=") ;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://media.istockphoto.com/id/1321195603/photo/people-having-balanced-diet-from-lunch-boxes.jpg?s=612x612&w=0&k=20&c=yieHclin0zByT8mXbK1x7dlf_4bG6yqeBRszUjyYBbc=");
   }
   .card2{
   background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://img.freepik.com/free-photo/delicious-italian-pizza-wooden-table_23-2148643436.jpg") ;
@@ -131,21 +150,35 @@ text-shadow: 0 0 5px #999;}
       padding-left:8%;
       padding-right:8%;
       box-sizing: border-box;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    @media only screen and (max-device-width: 1366px) {
+      .text {
+        background-attachment: scroll;
+      }
     }
     .second{
       width:auto;
       display: inline-block;
       color: white;
-    height: 30%;
-    align-items: center;
+    height: 40%;
+    align-items:center;
     text-decoration: none;
     margin-top: 200px;
     text-align: center;
-    border-style: dashed;
+    background-color: transparent;
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  text-shadow: #000;
+  border-radius: 30px;
     }
     .head2{
       color: white;
       font-size: 75px;
+      margin-top: 40px;
     }
     .para4{
       color: white;
@@ -155,10 +188,9 @@ text-shadow: 0 0 5px #999;}
       height: 50px;
       width: 100%;
       display: inline-block;
-      background-color: rgb(68, 40, 40);
+      background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://barstoolsdirect.net/wp-content/uploads/2020/03/Footer-Background.jpg") ;
       text-align: center;
       padding-top: 40px;
-      background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://images.squarespace-cdn.com/content/v1/651ba15b3c337421fa9e2df8/3283fca4-65cd-480c-8295-4f9f494a6321/Footer+Fade+1.png") ;
       }
     .statement{
       color: white;
