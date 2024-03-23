@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    }
+    .container1 {
+      width:100%;
+      height:100vh;
+      background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://www.budgetbytes.com/wp-content/uploads/2023/08/Coconut-Curry-Chickpeas-bowl.jpg");
+        background-position: center;
+        background-size: cover;
+        padding-left:8%;
+        padding-right:8%;
+        box-sizing: border-box;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    @media only screen and (max-device-width: 1366px) {
+      .container1 {
+        background-attachment: scroll;
+      }
+    }
+    .navbar{
+    height:12%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    margin-left: 0%;
+    transition: 1s;
+    color:white;
+    }
+    .navbar:hover {
+      background-color: transparent;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+      color: white;
+    }
+    nav{flex:1;
+    text-align: right; 
+      text-shadow: 0 0 5px #999;
+    }
+    .logo{
+      margin-left: 40px;
+    width: 75px;
+    cursor: pointer;
+    }
+    .menu-icon{
+        width: 30px;
+        cursor: pointer;
+          margin-left:40px;
+        }
+        nav ul li{
+        list-style: none;
+        display: inline-block; margin-left:60px;
+        }
+        nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 13px
+        }
+        .recipe1{
+            color:#fff;
+            display:inline-block;
+            width:100%;
+            text-align: center;
+            align-items: center;
+            margin-top: 50px;
+            background-color: transparent;
+  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);
+  border-radius: 50px;
+  width:90%;
+  height:75%;
+  align-items: center;
+  margin-left: 45px;
+        }
+        .steps1{
+            margin-top: 25px;
+            font-size: 14px;
+            text-align: center;
+        }
+        .head1{
+            margin-top: 50px;
+            font-size: 50px;
+            text-align: center;
+        }
+        button{
+            width: 180px;
+            color: #000;
+            font-size: 12px;
+            padding: 12px 0;
+            background: #fff;
+            border: 0;
+            border-radius: 20px;
+            outline: none;
+              margin-top:30px;
+            }
+            
+            .recipe2{
+                color:#fff;
+                display:inline-block;
+                width:100%;
+                text-align: center;
+                align-items: center;
+                margin-top: 50px;
+                background-color: transparent;
+      -webkit-backdrop-filter: blur(50px);
+      backdrop-filter: blur(50px);
+      border-radius: 50px;
+      width:90%;
+      height:75%;
+      align-items: center;
+      margin-left: 45px;
+            }
+            .steps2{
+                margin-top: 25px;
+                font-size: 14px;
+                text-align: center;
+            }
+            .head2{
+                margin-top: 50px;
+                font-size: 50px;}
+                
+                .container2 {
+                    width:100%;
+                    height:100vh;
+                    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://www.eatingwell.com/thmb/0acs9-JjacgAQXzuJ_6ZgoIajPI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/3879375-9eba674c941c4c90b2a4d6065aa58ad9.jpg");
+                      background-position: center;
+                      background-size: cover;
+                      padding-left:8%;
+                      padding-right:8%;
+                      box-sizing: border-box;
+                      background-attachment: fixed;
+                      background-position: center;
+                      background-repeat: no-repeat;
+                      background-size: cover;
+                  }
+                  @media only screen and (max-device-width: 1366px) {
+                    .container2 {
+                      background-attachment: scroll;
+                    }
+                  }
+                  .recipe3{
+                    color:#fff;
+                    display:inline-block;
+                    width:100%;
+                    text-align: center;
+                    align-items: center;
+                    margin-top: 50px;
+                    background-color: transparent;
+          -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+          border-radius: 50px;
+          width:90%;
+          height:75%;
+          align-items: center;
+          margin-left: 45px;
+                }
+                .steps3{
+                    margin-top: 25px;
+                    font-size: 14px;
+                    text-align: center;
+                }
+                .head3{
+                    margin-top: 50px;
+                    font-size: 50px;}
+                    
+                    .container3 {
+                        width:100%;
+                        height:100vh;
+                        background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://i.ytimg.com/vi/gwk3gM05zsQ/maxresdefault.jpg");
+                          background-position: center;
+                          background-size: cover;
+                          padding-left:8%;
+                          padding-right:8%;
+                          box-sizing: border-box;
+                          background-attachment: fixed;
+                          background-position: center;
+                          background-repeat: no-repeat;
+                          background-size: cover;
+                      }
+                      @media only screen and (max-device-width: 1366px) {
+                        .container3 {
+                          background-attachment: scroll;
+                        }
+                      }
+                      .recipe4{
+                        color:#fff;
+                        display:inline-block;
+                        width:100%;
+                        text-align: center;
+                        align-items: center;
+                        margin-top: 50px;
+                        background-color: transparent;
+              -webkit-backdrop-filter: blur(50px);
+              backdrop-filter: blur(50px);
+              border-radius: 50px;
+              width:90%;
+              height:75%;
+              align-items: center;
+              margin-left: 45px;
+                    }
+                    .steps4{
+                        margin-top: 25px;
+                        font-size: 14px;
+                        text-align: center;
+                    }
+                    .head4{
+                        margin-top: 50px;
+                        font-size: 50px;}
+                        
+                        .container4 {
+                            width:100%;
+                            height:100vh;
+                            background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://themom100.com/wp-content/uploads/2012/09/best-grilled-cheese-sandwich-468-scaled.jpg");
+                              background-position: center;
+                              background-size: cover;
+                              padding-left:8%;
+                              padding-right:8%;
+                              box-sizing: border-box;
+                              background-attachment: fixed;
+                              background-position: center;
+                              background-repeat: no-repeat;
+                              background-size: cover;
+                          }
+                          @media only screen and (max-device-width: 1366px) {
+                            .container3 {
+                              background-attachment: scroll;
+                            }
+                          }
+            
