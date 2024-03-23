@@ -41,7 +41,8 @@
   font-size: 13px
   }
   .row{
-  display: flex;
+    width:1500px;
+    display: flex;
   height: 70%;
   align-items: center;
   text-decoration: none;
@@ -50,7 +51,7 @@
     display: flex;
     flex-basis: 50%;
     height: 100%;
-    padding-left: 150px;
+    padding-left: 30px;
   }
   h1{color: #fff;
     font-size: 100px;}
@@ -67,13 +68,15 @@ text-shadow: 0 0 5px #999;}
   border: 0;
   border-radius: 20px;
   outline: none;
-    margin-top:30px;}
+    margin-top:30px;
+  }
   .card{
-  width: 200px;
-  height: 230px;
+  width: 300px;
+  height: 250px;
+  text-align: center;
   display: inline-block;
   border-radius: 10px;
-  padding: 15px 25px;
+  padding: 20px 25px;
   box-sizing: border-box;
   cursor: pointer;
   margin: 10px 15px;
@@ -99,4 +102,74 @@ text-shadow: 0 0 5px #999;}
     width:235px;
     cursor: pointer;
   }
-  
+  .cust1{
+    width: 600px;
+    height: 400px;
+    display: inline-block;
+    margin-left: 300px;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    border-style: dashed;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://img.freepik.com/free-photo/top-view-delicious-pizza-wooden-table_23-2148643420.jpg");
+  }
+  .h6{
+    color:white;
+    font-size: 100px;
+  }
+
+  .yash{
+    color:white;
+    font-size: 15px;
+  }
+  .text {
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://plus.unsplash.com/premium_photo-1671403963864-6d46f3b62352?blend=000000&blend-alpha=10&blend-mode=normal&blend-w=1&crop=faces%2Cedges&h=630&mark=https%3A%2F%2Fimages.unsplash.com%2Fopengraph%2Flogo.png&mark-align=top%2Cleft&mark-pad=50&mark-w=64&w=1200&auto=format&fit=crop&q=60&ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzEwODQ2MTkwfA&ixlib=rb-4.0.3");
+      background-position: center;
+      background-size: cover;
+      padding-left:8%;
+      padding-right:8%;
+      box-sizing: border-box;
+    }
+    .second{
+      width:auto;
+      display: inline-block;
+      color: white;
+    height: 30%;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 200px;
+    text-align: center;
+    border-style: dashed;
+    }
+    .head2{
+      color: white;
+      font-size: 75px;
+    }
+    .para4{
+      color: white;
+      font-size: 12px;
+    }
+    footer{
+      height: 50px;
+      width: 100%;
+      display: inline-block;
+      background-color: rgb(68, 40, 40);
+      text-align: center;
+      padding-top: 40px;
+      background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://images.squarespace-cdn.com/content/v1/651ba15b3c337421fa9e2df8/3283fca4-65cd-480c-8295-4f9f494a6321/Footer+Fade+1.png") ;
+      }
+    .statement{
+      color: white;
+      font-size: 100px;
+      display: inline-block;
+      text-align: center;
+      margin-left: 170px;
+      margin-top: 100px;
+    }
+last{
+  display: inline-block;
+  width:100%;
+  align-items: center;
+}
